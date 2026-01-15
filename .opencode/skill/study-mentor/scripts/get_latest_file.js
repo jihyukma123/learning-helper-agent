@@ -1,6 +1,6 @@
 // script to fetch the latest commited file for the TIL repo
 // use node native .env file loading when executing this file
-// node --env-file=.env .gemini/skills/study-mentor/scripts/get_latest_file.js
+// node --env-file=.env .opencode/skill/study-mentor/scripts/get_latest_file.js
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER;
 const GITHUB_REPO = process.env.GITHUB_REPO;
